@@ -1,0 +1,53 @@
+body {
+	font-family: 'Courier New', monospace;
+	line-height: 120%;
+	background-color: black;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+a:link {
+  color: #1e90ff;
+}
+
+.container {
+	max-width:1080px;
+    margin:40px auto;
+    padding:16px 48px;
+	background-color: #ffc180;
+	outline-style: solid;
+	outline-color: black;
+}
+
+.left {
+	position: absolute;
+	top: 16;
+	left: 0;
+}
+
+.right {
+	position: absolute;
+	top: 16;
+	right: 0;
+}
+
+h1,h2,h3{
+	line-height:1.2
+}
+
+table, th, td {
+	border: 1px solid;
+	color:black;
+}
+
+footer {
+	text-align: center;
+	font-size: 75%;
+	line-height: 75%;
+}
+
+#photo {
+	float: right;
+	padding-left:24px;
+	padding-bottom:24px;
+}
